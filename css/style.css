@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin-bottom: 0;
+}hr{
+    height: 2px;
+    background-color: #4d4d4d;
+}
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.full_page .cv_box .body_leftSide, .body_rightSide{
+    padding-bottom: 30px;
+}
+.full_page .cv_box .section_items{
+    padding: 30px 30px 15px 30px;
+    text-align: left;
+}
+.full_page .cv_box .section_items .part_title h2{
+    font-size: 22px;
+}
+
+.full_page {
+    padding: 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.full_page .cv_box{
+    width: 1000px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.114), 0 6px 20px 0 rgba(0, 0, 0, 0.059);
+    padding: 50px 0 0 0;
+}
+.full_page .cv_box .cv_title{
+    margin-bottom: 30px;
+}
+.full_page .cv_box .cv_title h3{
+    font-family: 'raleway';
+    text-decoration: underline;
+}
+.full_page .cv_box .cv_head{
+    background: linear-gradient(to right,  #ffffff , #d4dee6 70% );
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.full_page .cv_box .cv_head .img_info{
+    display: flex;
+    align-items: center;
+}
+.full_page .cv_box .cv_head_myPhoto {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full_page .cv_box .cv_head_myPhoto .my_image{
+    width: 180px;
+    height: 180px;
+    border-radius: 5px;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.full_page .cv_box .cv_head_myPhoto img{
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+}
+.full_page .cv_box .cv_head_myInfo .cv_head_myName{
+    font-family: 'raleway';
+    font-weight: 700;
+    color: #4d4d4d;
+    letter-spacing: 5px;
+}
+.full_page .cv_box .cv_head_myInfo .cv_head_myProfession{
+    font-family: 'dosis';
+    font-weight: 700;
+    color: #4d4d4d;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+.full_page .cv_box .body_leftSide{
+    background: #d4dee6;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.full_page .cv_box .body_leftSide .section_items .part_details .personal_information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.full_page .cv_box .body_leftSide .section_items .part_details .personal_info_icon{
+    display: flex;
+    justify-content: end;
+}
+.full_page .cv_box .body_leftSide .section_items .part_details .personal_info_details{
+    display: flex;
+    justify-content: start;
+    padding-left: 30px;
+}
+
+.full_page .cv_box .body_rightSide{
+    background: #ffffff;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+.full_page .cv_box .body_rightSide .section_items .part_details table th{
+    font-size: 14px;
+}
+.full_page .cv_box .body_rightSide .section_items .part_details table td{
+    font-size: 12px;
+}
+.full_page .cv_box .section_items .part_details .dropdown_list li{
+    font-size: 13px;
+}
